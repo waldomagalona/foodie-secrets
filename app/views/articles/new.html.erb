@@ -1,0 +1,14 @@
+<body class = "min-h-screen bg-gradient-to-b from-gray-100 to-gray-300">
+
+<div class="flex flex-col flex-wrap justify-center items-center	">
+<h1 class="mb-4 text-4xl font-semibold">Share a new Recipe!</h1>
+
+<%= render 'form', article: @article %>
+<div class = "flex flex-row justify-end items-center">
+    <div class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+        <%= link_to 'Back', articles_path %>
+    </div>
+</div>
+</div>
+</body>
+
